@@ -9,7 +9,7 @@ Created on Sat Jul  4 08:39:21 2020
 from PIL import Image
 import os, sys
 
-path = "C:/Users/saiha/Downloads/OPPO/apppics/" #/root/Desktop/python/images/
+path = "/media/data/sanjay/person-segmentation/masks/" #"C:/Users/saiha/Downloads/OPPO/apppics/" #/root/Desktop/python/images/
 dirs = os.listdir( path )
 
 def resize():
